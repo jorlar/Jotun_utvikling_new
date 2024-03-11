@@ -15,7 +15,7 @@ const Navbar = () => {
           Jotun Utvikling AS
         </motion.span>
         <div className='social'>
-          <a href='#'>
+          <a href='https://www.facebook.com/profile.php?id=100085235652093'>
             <img src='/facebook.png' alt='' />
           </a>
           <a href='#'>
