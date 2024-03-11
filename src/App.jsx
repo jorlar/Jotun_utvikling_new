@@ -12,11 +12,11 @@ const App = () => {
   return (
     <div>
       <Cursor />
-      <section id='Homepage'>
+      <section id='Hjem'>
         <Navbar />
         <Hero />
       </section>
-      <section id='Services'>
+      <section id='Tjenester'>
         <Parallax type='services' />
       </section>
       <section>
@@ -26,7 +26,7 @@ const App = () => {
         <Parallax type='portfolio' />
       </section>
       <Portfolio />
-      <section id='Contact'>
+      <section id='Kontakt'>
         <Contact />
       </section>
     </div>
