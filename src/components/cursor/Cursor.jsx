@@ -19,9 +19,8 @@ const Cursor = () => {
 
   return (
     <motion.div
-      className="cursor"
-      animate={{ x: position.x+10, y: position.y+10 }}
-    ></motion.div>
+      className='cursor'
+      animate={{ x: position.x - 24, y: position.y - 24 }}></motion.div>
   );
 };
 

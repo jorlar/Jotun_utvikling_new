@@ -61,16 +61,17 @@
   }
 
   .imageContainer {
-    height: 100%;
+    height: 300px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 34%;
+    margin-left: 50%;
 
     @include mobile {
-      height: 50%;
-      width: 100%;
-      top: unset;
-      bottom: 0;
+      display: none;
+    }
+
+    @media only screen and (min-width: 739px) and (max-width: 1450px) {
+      display: none;
     }
 
     img{
@@ -80,7 +81,12 @@
     }
   }
 
+  .mouseScrolldown {
+    user-select: none;
+  }
+
   .slidingTextContainer {
+    user-select: none;
     position: absolute;
     font-size: 50vh;
     bottom: -120px;

@@ -58,6 +58,7 @@ const Hero = () => {
           </motion.div>
           <motion.img
             variants={textVariants}
+            className='mouseScrolldown'
             animate='scrollButton'
             src='/scroll.png'
             alt=''
@@ -72,7 +73,7 @@ const Hero = () => {
         Webutvkling Nettverksdrift Automasjon Applikasjonsforvaltning
       </motion.div>
       <div className='imageContainer'>
-        <img src='/hero.png' alt='' />
+        <img src='/heroPNG.png' alt='' />
       </div>
     </div>
   );
