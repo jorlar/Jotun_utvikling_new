@@ -34,4 +34,14 @@
       }
     }
   }
+
+  @media only screen and (min-width: 739px) and (max-width: 1450px) {
+    font-size: 25px;
+    margin-left: 12%;
+    
+    .social {
+      margin-right: 5%;
+    }
+  }
+
 }

@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import Om from "./components/Om/OmOss";
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
         <Parallax type='portfolio' />
       </section>
       <Portfolio />
+      <section id="Om">
+        <Om />
+      </section>
       <section id='Kontakt'>
         <Contact />
       </section>

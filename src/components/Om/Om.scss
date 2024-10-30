@@ -1,5 +1,5 @@
 @import "../../app.scss";
-.services {
+.om {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
   display: flex;
@@ -36,8 +36,10 @@
       }
     }
   }
+  
   .titleContainer {
-    flex: 2;
+    height: 150px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +49,7 @@
     }
 
     .title {
+      padding-top: 7%;
       display: flex;
       align-items: center;
       gap: 50px;
@@ -57,26 +60,26 @@
         gap: 20px;
       }
 
-      img {
-        width: 300px;
-        height: 100px;
-        border-radius: 50px;
-        object-fit: cover;
+      // img {
+      //   width: 300px;
+      //   height: 100px;
+      //   border-radius: 50px;
+      //   object-fit: cover;
 
-        @include mobile {
-          width: 200px;
-          height: 50px;
-        }
+      //   @include mobile {
+      //     width: 200px;
+      //     height: 50px;
+      //   }
 
-        @media only screen and (min-width: 739px) and (max-width: 1450px) {
-          width: 250px;
-          height: 75px;
-        }
-      }
+      //   @media only screen and (min-width: 739px) and (max-width: 1450px) {
+      //     width: 250px;
+      //     height: 75px;
+      //   }
+      // }
 
       h1 {
         font-size: 96px;
-        font-weight: 100;
+        font-weight: bold;
 
         @include mobile {
           font-size: 36px;
@@ -87,37 +90,33 @@
         }
       }
 
-      button {
-        width: 300px;
-        height: 100px;
-        border-radius: 50px;
-        background-color: orange;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
+      // button {
+      //   width: 300px;
+      //   height: 100px;
+      //   border-radius: 50px;
+      //   background-color: orange;
+      //   border: none;
+      //   font-size: 24px;
+      //   cursor: pointer;
 
-        @include mobile {
-          font-size: 16px;
-          width: 150px;
-          height: 50px;
-        }
+      //   @include mobile {
+      //     font-size: 16px;
+      //     width: 150px;
+      //     height: 50px;
+      //   }
 
-        @media only screen and (min-width: 739px) and (max-width: 1450px) {
-          width: 250px;
-          height: 75px;
-        }
-      }
-
-      button:active {
-        color: white;
-        border: 2px solid orange;
-        background-color: transparent;
-      }
+      //   @media only screen and (min-width: 739px) and (max-width: 1450px) {
+      //     width: 250px;
+      //     height: 75px;
+      //   }
+      // }
     }
   }
+
   .listContainer {
     flex: 2;
     display: flex;
+    height: 20%;
     max-width: 1366px;
     margin: auto;
 
@@ -130,6 +129,7 @@
       padding: 50px;
       border: 0.5px solid gray;
       display: flex;
+      height: 80%;
       flex-direction: column;
       justify-content: space-between;
 
@@ -145,37 +145,34 @@
         margin-top: 15px;
       }
 
-
       p {
+        margin-top: 0px;
+        margin-bottom: auto;
+
         @include mobile {
           display: none;
         }
       }
 
-      button {
-        padding: 10px;
-        background-color: orange;
-        border: none;
-        cursor: pointer;
+      // button {
+      //   padding: 10px;
+      //   background-color: orange;
+      //   border: none;
+      //   cursor: pointer;
 
-        @include mobile {
-          background-color: transparent;
-          border: 1px solid orange;
-          border-radius: 5px;
-          color: orange;
-          width: 50%;
-          padding: 5px;
-        }
+      //   @include mobile {
+      //     background-color: transparent;
+      //     border: 1px solid orange;
+      //     border-radius: 5px;
+      //     color: orange;
+      //     width: 50%;
+      //     padding: 5px;
+      //   }
 
-        @media only screen and (min-width: 739px) and (max-width: 1450px) {
-          margin-top: 25px;
-        }
-      }
-
-      button:active {
-        border: 2px solid orange;
-        background-color: transparent;
-      }
+      //   @media only screen and (min-width: 739px) and (max-width: 1450px) {
+      //     margin-top: 25px;
+      //   }
+      // }
 
       @media only screen and (min-width: 739px) and (max-width: 1450px) {
         h2 {

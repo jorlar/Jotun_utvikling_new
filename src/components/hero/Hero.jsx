@@ -51,10 +51,14 @@ const Hero = () => {
             Din Totalleverandør Av IT-Tjenester
           </motion.h1>
           <motion.div variants={textVariants} className='buttons'>
-            <motion.button variants={textVariants}>
+            <motion.button 
+            onClick={() => console.log("See_the_latest_works Link")}
+            variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button 
+            onClick={() => console.log("Contact_me Link")}
+            variants={textVariants}>Contact Me</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
