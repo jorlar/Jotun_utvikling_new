@@ -29,12 +29,12 @@ const items = [
     title: "Øie trafikkskole",
     link: "https://www.oietrafikkskole.no/",
     img: "/Øie-trafikkskole.png",
-    desc: "Noue tekste.",
+    desc: "Webside og booking system, levert til Øie Trafikkskole i Valdres. Siden er bygget på Wordpress CMS med PHP i bakgrunn og integrert opp mot Tabs som bookingløsning for kjøretimer.",
   },
 ];
 
 const OpenLink = (url) => {
-  window.open(url, '_blank');
+  window.open(url, "_blank");
 };
 
 const Single = ({ item }) => {
@@ -47,13 +47,13 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section >
-      <div className="container">
-        <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+    <section>
+      <div className='container'>
+        <div className='wrapper'>
+          <div className='imageContainer' ref={ref}>
+            <img src={item.img} alt='' />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <button onClick={() => OpenLink(item.link)}>Visit the site</button>
@@ -78,10 +78,10 @@ const Portfolio = () => {
   });
 
   return (
-    <div className="portfolio" ref={ref}>
-      <div className="progress">
+    <div className='portfolio' ref={ref}>
+      <div className='progress'>
         <h1>Featured Works</h1>
-        <motion.div style={{ scaleX }} className="progressBar"></motion.div>
+        <motion.div style={{ scaleX }} className='progressBar'></motion.div>
       </div>
       {items.map((item) => (
         <Single item={item} key={item.id} />
