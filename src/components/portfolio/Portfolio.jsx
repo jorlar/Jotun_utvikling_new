@@ -5,10 +5,10 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
+    title: "Iprosess AS",
     link: "",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "/iprosess.png",
+    desc: "Webside, nettbutikk og bookingløsning levert for Iprosess AS i Oslo. Tjenesten er levert på dedikert server med Wordpress CMS i bakgrunn, PHP database og Ecommerce butikkløsning.",
   },
   {
     id: 2,
