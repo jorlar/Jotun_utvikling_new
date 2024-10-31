@@ -33,39 +33,36 @@ const Om = () => {
       // whileInView="animate"
       ref={ref}
       animate={"animate"}>
-      
       <motion.div className='titleContainer' variants={variants}>
         <div className='title'>
-          <h1>
-            Om Oss
-          </h1>
+          <h1>Om Oss</h1>
         </div>
       </motion.div>
       <motion.div className='listContainer' variants={variants}>
-        <motion.div
-          className='box'>
+        <motion.div className='box'>
           <h2>Tittle</h2>
           <p>
-          Jotun Utvikling er et lite, men stabilt IT-firma med røtter og hovedkontor i Fagernes, midt i ville, vakre Valdres.
-Vår visjon er å alltid ligge et hakk foran i markedet, og tilby kundene våre oppdaterte systemer og rådgivning basert på dagsaktuell informasjon om IT-markedet.
-          
+            Jotun Utvikling er et lite, men stabilt IT-firma med røtter og
+            hovedkontor i Fagernes, midt i ville, vakre Valdres. Vår visjon er å
+            alltid ligge et hakk foran i markedet, og tilby kundene våre
+            oppdaterte systemer og rådgivning basert på dagsaktuell informasjon
+            om IT-markedet.
           </p>
         </motion.div>
-        <motion.div
-          className='box'>
+
+        <motion.div className='box'>
           <h2>Tittle</h2>
           <p>
-          Fra hovedkontoret på Fagernes styres den daglige driften og supporten ut til kundene. Her har Jørn sitt daglige virke, sammen med to andre leietakere som til tider også assistere inn i Jotun Utvikling ved behov.
-          I forbindelse med lokalene ligger det også et serverrom som er under oppbygning, og herfra driftes alle inhouse-kundene til Jotun Utvikling.
-          </p>
-        </motion.div>
-        <motion.div
-          className='box'>
-          <h2>Tittle</h2>
-          <p>
-            Text text text  text text text text text text text text text text text text text text text text text text text text text
-            text text text text text text text text text text text text text text text text text text text text text
-            text text text text text text text text text text text text text text text text text text
+            Fra hovedkontoret på Fagernes styres den daglige driften og
+            supporten ut til kundene. Her har Jørn sitt daglige virke, sammen
+            med to andre leietakere som til tider også assistere inn i Jotun
+            Utvikling ved behov. I forbindelse med lokalene ligger det også et
+            serverrom som er under oppbygning, og herfra driftes alle
+            inhouse-kundene til Jotun Utvikling. Satsningsområdet for de neste
+            årene er å utvikle porteføljen på SMB-markedet ytterligere, og inngå
+            de rette samarbeidene med kunder og leverandører for å kunne levere
+            en totalpakke på klient, drift og sikkerhet for SMB-markedet og
+            foreninger.
           </p>
         </motion.div>
       </motion.div>
